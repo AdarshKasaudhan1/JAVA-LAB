@@ -1,34 +1,3 @@
-/*interface fruit{
-    void fruit_name();
-    void fruit_shape();
-    void fruit_color();
-    void fruit_price();
-    void fruit_taste();
-    void fruit_area();
-}
-class fruit9 implements fruit{
-    public void fruit_name() {
-        System.out.println("fruits details " );
-        System.out.println("--------------------");
-        System.out.println("Fruit name is Apple");
-    }
-    public void fruit_shape(){
-        System.out.println("fruit shape is oval");
-    }
-    public void fruit_taste(){
-        System.out.println(" fruit tase is sweet");
-    }
-    public void fruit_color() {
-        System.out.println(" fruit colour is red");
-    }
-    public void fruit_area() {
-        System.out.println(" maximum production area is Kashmir");
-    }
-    public void fruit_price() {
-        System.out.println("price is 120rs");
-    }
-}
-
 public class phal {
     public static void main(String[] args) {
        fruit9 asd =new fruit9();
