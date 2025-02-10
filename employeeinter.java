@@ -1,4 +1,4 @@
-/*interface Employee{//interface method
+interface Employee{//interface method
     void  Employee_details();//interface method or abstract class
 }
 class EMP1 implements Employee {//implementation class
@@ -78,5 +78,5 @@ class employeeinter{
         EMP5 ask5=new EMP5();
         ask5.Employee_details5();
     }
-}*/
+}
 
