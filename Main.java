@@ -1,21 +1,17 @@
-import java.util.Scanner;
-import java.util.Set;
-import java.util.HashSet;
-class Main {
+//file handling in java: Writing a file
+import java.io.FileWriter;
+import java.io.IOException; // exception means error in files
+public class Main{
     public static void main(String[] args) {
-        Set<String> fruits = new HashSet<>();
-        //fruits.add("apple");
-        //fruits.add("mango");
-        //fruits.add("banana");
-        Scanner ask = new Scanner(System.in);
-        while (true) {
-            System.out.println("Enter the names of Fruits:(type 'done' to finish) ");
-            String Fruits = ask.next();
-            if (Fruits.equalsIgnoreCase("done")){
-                break;
-            }
-            fruits.add(Fruits);
+        try{
+            FileWriter java = new FileWriter("java.txt"); // creating and writing a file
+            java.write("Java is a High Level Programming Language");
+            java.close();
+            System.out.println("Java File Created and Writing is Finish");
+        }catch(IOException e){
+            System.out.println("File is Not Created : Error");
+            e.printStackTrace();
         }
-        System.out.println("Fruits Name"+fruits);
+
     }
 }
