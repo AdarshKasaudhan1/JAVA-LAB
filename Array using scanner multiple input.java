@@ -25,12 +25,6 @@ public class scanner2 {
             System.out.println(i);
         }
 
-
-
-
-
-
-
     }
 
 }
