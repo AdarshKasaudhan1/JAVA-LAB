@@ -1,16 +1,3 @@
-/*class Main{
-    public static void main (String[]args){
-        //int[] array = {1, 2, 3, 4, 5};// creating array in java
-       // System.out.println("First elements of array is:" + array[1]);
-        try {
-            int[] array = {1, 2, 3, 4, 5};// creating array in java
-            System.out.println("First elements of array is:" + array[10]);
-        }
-        catch (ArrayIndexOutOfBoundsException e){
-            System.out.println("Array is out of bound");
-        }
-    }
-}*/
 //Multiple errors can handle using one try block, more than one catch blocks
 class Practice{
     public static void main(String[] args) {
