@@ -1,30 +1,13 @@
-public class phal {
-    public static void main(String[] args) {
-       fruit9 asd =new fruit9();
-       asd.fruit_area();
-       asd.fruit_area();
-       asd.fruit_name();
-       asd.fruit_price();
-       asd.fruit_taste();
-       asd.fruit_shape();
-    }
-}*/
 interface Fruit {
-    void fruitName();
-    void fruitShape();
-    void fruitColor();
-    void fruitPrice();
-    void fruitTaste();
-    void fruitArea();
 }
 
 class Fruit9 implements Fruit {
-     String name = "Apple";
-     String shape = "Oval";
-     String taste = "Sweet";
-     String color = "Red";
-     String area = "Kashmir";
-     int price = 120;
+    String name = "Apple";
+    String shape = "Oval";
+    String taste = "Sweet";
+    String color = "Red";
+    String area = "Kashmir";
+    int price = 120;
 
     public void fruitName() {
         System.out.println("Fruit details:");
@@ -48,7 +31,7 @@ class Fruit9 implements Fruit {
     }
 }
 
-public class phal {
+public class example {
     public static void main(String[] args) {
         Fruit9 asd = new Fruit9();
         asd.fruitArea();
