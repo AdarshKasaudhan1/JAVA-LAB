@@ -1,6 +1,4 @@
 //thread in java
-package sample;
-
 class Child extends Thread{//child class
     public void run(){
         System.out.println("this is Infinitive");
